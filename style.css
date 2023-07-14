@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: rgba(246, 240, 237, 1);
+    color: #28262C;
+}
+
+ul {
+  max-width:200px;
+   
+}
+.ul{
+  display:flex;
+  justify-content:center;
+}
