@@ -1,15 +1,25 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    background-color: rgba(246, 240, 237, 1);
-    color: #28262C;
+* {
+  font-family: Inter;
+  background-color: #0f172a;
+  color: #f1f5f9;
 }
 
-ul {
-  max-width:200px;
-   
+h1{
+  text-align: center;
 }
-.ul{
-  display:flex;
-  justify-content:center;
+
+.list {
+  padding-left: 580px;
+}
+
+li::marker {
+  color: salmon;
+}
+
+div {
+  margin-top: 40px;
+}
+
+a {
+  text-decoration: none;
 }
