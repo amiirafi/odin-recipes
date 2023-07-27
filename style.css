@@ -8,16 +8,19 @@ h1{
   text-align: center;
 }
 
+div {
+  margin-top: 40px;
+  text-align: center;
+}
+
 .list {
-  padding-left: 580px;
+  display: inline-block;
+  text-align: left;
+
 }
 
 li::marker {
   color: salmon;
-}
-
-div {
-  margin-top: 40px;
 }
 
 a {
